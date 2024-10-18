@@ -7,18 +7,20 @@ In this section, we describe on how you can install Dashboard by Devtron.
 * Create a [Kubernetes cluster, preferably K8s version 1.16 or higher](../tasks/create-cluster.md)
 * Install [Helm](https://helm.sh/docs/intro/install/) if you have not installed it.
 
-## Add Helm Repo
+## Commands
+
+### Add Helm Repo
 
 ```bash
 helm repo add devtron https://helm.devtron.ai
 ```
 
-## Update Helm Repo
+### Update Helm Repo
 ```bash
 helm repo update devtron
 ```
 
-## Install Dashboard
+### Install Dashboard
 
 ```bash
 helm install devtron devtron/devtron-operator \
@@ -31,7 +33,7 @@ If you wish to install Devtron on clusters with multi-architecture nodes (ARM an
 {% endhint %}
 
 
-## Get Dashboard URL
+### Get Dashboard URL
 
 Run the following command to get the dashboard URL:
 
@@ -39,7 +41,7 @@ Run the following command to get the dashboard URL:
 kubectl get svc -n devtroncd devtron-service -o jsonpath='{.status.loadBalancer.ingress}'
 ```
 
-### Example
+#### Example
 Assuming you have an EKS cluster, you might get a similar message as shown below:
 
 ```text
@@ -56,7 +58,7 @@ Moreover, you can also do a CNAME entry corresponding to your domain/subdomain t
 | devtron.yourdomain.com | CNAME | aaff16e9760594a92afa0140dbfd99f7-305259315.us-east-1.elb.amazonaws.com |
 
 
-## Get Admin Login credentials
+### Get Admin Login credentials
 
 When you install Devtron for the first time, it creates a default admin user and password (with unrestricted access to Devtron). You can use that credentials to log in as an administrator. 
 
