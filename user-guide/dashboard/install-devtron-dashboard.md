@@ -1,12 +1,11 @@
-# Install Devtron
+# Install Dashboard
 
-In this section, we describe on how you can install Helm Dashboard by Devtron without any integrations. Integrations can be added later using [Devtron Stack Manager](../../user-guide/stack-manager.md).
-
-If you want to install Devtron on Minikube, Microk8s, K3s, Kind, refer this [section](./Install-devtron-on-Minikube-Microk8s-K3s-Kind.md).
+In this section, we describe on how you can install Dashboard by Devtron.
 
 ## Prerequisite
 
-Install [Helm](https://helm.sh/docs/intro/install/) if you have not installed it.
+* Create a [Kubernetes cluster, preferably K8s version 1.16 or higher](../tasks/create-cluster.md)
+* Install [Helm](https://helm.sh/docs/intro/install/) if you have not installed it.
 
 ## Add Helm Repo
 
@@ -19,37 +18,20 @@ helm repo add devtron https://helm.devtron.ai
 helm repo update devtron
 ```
 
-## Install Helm Dashboard by Devtron
-
-Run the following command to install Helm Dashboard by Devtron:
+## Install Dashboard
 
 ```bash
 helm install devtron devtron/devtron-operator \
 --create-namespace --namespace devtroncd
 ```
 
+{% hint style="info" %}
+### Having a Multi-Arch Cluster? 
+If you wish to install Devtron on clusters with multi-architecture nodes (ARM and AMD), append the Devtron installation command with `--set installer.arch=multi-arch`.
+{% endhint %}
 
-## Install Multi-Architecture Nodes (ARM and AMD)
 
-To install Devtron on clusters with the multi-architecture nodes (ARM and AMD), append the Devtron installation command with `--set installer.arch=multi-arch`.
-
-
-
-[//]: # (If you are planning to use Hyperion for `production deployments`, please refer to our recommended overrides for [Devtron Installation]&#40;override-default-devtron-installation-configs.md&#41;.)
-
-[//]: # (## Installation status)
-
-[//]: # ()
-[//]: # (Run following command)
-
-[//]: # ()
-[//]: # (```bash)
-
-[//]: # (kubectl -n devtroncd get installers installer-devtron -o jsonpath='{.status.sync.status}')
-
-[//]: # (```)
-
-## Devtron Dashboard
+## Get Dashboard URL
 
 Run the following command to get the dashboard URL:
 
@@ -57,7 +39,7 @@ Run the following command to get the dashboard URL:
 kubectl get svc -n devtroncd devtron-service -o jsonpath='{.status.loadBalancer.ingress}'
 ```
 
-You will get the result something as shown below:
+You will get the result as shown below:
 
 ```text
 [test2@server ~]$ kubectl get svc -n devtroncd devtron-service -o jsonpath='{.status.loadBalancer.ingress}'
@@ -73,7 +55,7 @@ The hostname `aaff16e9760594a92afa0140dbfd99f7-305259315.us-east-1.elb.amazonaws
 | devtron.yourdomain.com | CNAME | aaff16e9760594a92afa0140dbfd99f7-305259315.us-east-1.elb.amazonaws.com |
 
 
-## Devtron Admin credentials
+## Get Admin Login credentials
 
 When you install Devtron for the first time, it creates a default admin user and password (with unrestricted access to Devtron). You can use that credentials to log in as an administrator. 
 
