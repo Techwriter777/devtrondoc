@@ -61,7 +61,7 @@
   * [0.3.x-0.3.x](setup/upgrade/devtron-upgrade-0.3.x-0.3.x.md)
   * [0.2.x-0.3.x](setup/upgrade/devtron-upgrade-0.2.x-0.3.x.md)
 
-## Devtron Dashboard
+## Modern Kubernetes Dashboard
 
 * [Overview of Dashboard](user-guide/dashboard/README.md)
 * [Setting Up the Dashboard](user-guide/dashboard/install-devtron-dashboard.md)
