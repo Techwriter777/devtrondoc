@@ -39,12 +39,6 @@ The cluster in which Argo CD apps exist should be added in **Global Configuratio
 
 ---
 
-## Feature Flag
-
-> **`ENABLE_EXTERNAL_ARGO_CD: "true"`**
-
----
-
 ## Steps to Enable ArgoCD App Listing
 
 {% embed url="https://www.youtube.com/watch?v=4KyYnsAEpqo" caption="Enabling External ArgoCD Listing" %}
@@ -59,7 +53,7 @@ The cluster in which Argo CD apps exist should be added in **Global Configuratio
 
 5. Click **Edit Live Manifest**.
 
-6. Set the feature flag **ENABLE_EXTERNAL_ARGO_CD** to  **"true"**
+6. Set the feature flag **`ENABLE_EXTERNAL_ARGO_CD: "true"`**
 
 7. Click **Apply Changes**.
 

@@ -38,7 +38,7 @@ The cluster in which Flux CD apps exist should be added in **Global Configuratio
 
 ## Feature Flag
 
-> **`FEATURE_EXTERNAL_FLUX_CD_ENABLE: "true"`**
+**`FEATURE_EXTERNAL_FLUX_CD_ENABLE: "true"`**
 
 ---
 
@@ -54,7 +54,7 @@ The cluster in which Flux CD apps exist should be added in **Global Configuratio
 
 5. Click **Edit Live Manifest**.
 
-6. Add the [feature flag](#feature-flag-1) in the Dashboard ConfigMap as shown below.
+6. Add the feature flag **`FEATURE_EXTERNAL_FLUX_CD_ENABLE: "true"`** in the Dashboard ConfigMap as shown below.
 
     ![Figure 2: Editing Dashboard ConfigMap](https://devtron-public-asset.s3.us-east-2.amazonaws.com/images/creating-application/fluxcd/flux-feature-flag.jpg)
 
