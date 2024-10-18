@@ -49,7 +49,6 @@ For your advanced and challenging use-cases, Devtron offers enterprise-grade fea
 - **Advanced CEL Filtering**: Filter Kubernetes resources with advanced CEL-based queries.
 - **Cluster & Helm Apps Catalog**: Manage and browse the data of clusters and Helm apps using Catalog Framework.
 - **Simplified Kubeconfig Sharing**: Get Kubeconfig file for gaining cluster access through your local machine.
-- **Fine-grained Access Control**: Supports SSO and time-based access control for user management.
-- **Air-Gapped Support**: Mechanism to generate helm package for your air-gapped environments.
+- **Fine-grained Access Control**: Supports time-based access control for user management.
 - **Pod Restart Snapshot**: View snapshots of Pod states for troubleshooting.
 - **Cluster Access via SSH & Proxy**: Securely access clusters through SSH or proxy.
