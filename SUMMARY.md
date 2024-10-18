@@ -76,8 +76,8 @@
 * [Flux CD App Listing](user-guide/dashboard/fluxcd-listing.md)
 * [User Management](user-guide/global-configurations/authorization/README.md)
 * [Tasks](user-guide/tasks/README.md)
-  * [Creating a Kubernetes Cluster](user-guide/tasks/create-cluster.md)
-  * [Running Kubectl Commands Locally](user-guide/tasks/kubectl-local.md)
+  * [Create a Kubernetes Cluster](user-guide/tasks/create-cluster.md)
+  * [Run Kubectl Commands Locally](user-guide/tasks/kubectl-local.md)
 
 
 ## Usage

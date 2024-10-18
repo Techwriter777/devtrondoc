@@ -39,16 +39,17 @@ Run the following command to get the dashboard URL:
 kubectl get svc -n devtroncd devtron-service -o jsonpath='{.status.loadBalancer.ingress}'
 ```
 
-You will get the result as shown below:
+### Example
+Assuming you have an EKS cluster, you might get a similar message as shown below:
 
 ```text
 [test2@server ~]$ kubectl get svc -n devtroncd devtron-service -o jsonpath='{.status.loadBalancer.ingress}'
 [map[hostname:aaff16e9760594a92afa0140dbfd99f7-305259315.us-east-1.elb.amazonaws.com]]
 ```
 
-The hostname `aaff16e9760594a92afa0140dbfd99f7-305259315.us-east-1.elb.amazonaws.com` as mentioned above is the Loadbalancer URL where you can access the Devtron dashboard.
+where, hostname `aaff16e9760594a92afa0140dbfd99f7-305259315.us-east-1.elb.amazonaws.com` is the Loadbalancer URL at which you can access the Devtron dashboard.
 
-> You can also do a CNAME entry corresponding to your domain/subdomain to point to this Loadbalancer URL to access it at a custom domain.
+Moreover, you can also do a CNAME entry corresponding to your domain/subdomain to point to this Loadbalancer URL to access it at a custom domain.
 
 | Host | Type | Points to |
 | :--- | :--- | :--- |
