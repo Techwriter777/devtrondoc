@@ -72,5 +72,11 @@ kubectl -n devtroncd get secret devtron-secret \
 ```
 
 {% hint style="info" %}
-If you want to uninstall Devtron or clean Devtron helm installer, refer [uninstall Devtron](../install/uninstall-devtron.md).
+### Recommended Action
+When you install Devtron for the first time, it creates a default admin user and password (with unrestricted access to Devtron). You can use that credentials to log in as an administrator. 
+
+After the initial login, we recommend you set up any SSO service like Google, GitHub, etc., and then add other users (including yourself). Subsequently, all the users can use the same SSO (let's say, GitHub) to log in to Devtron's dashboard.
 {% endhint %}
+
+
+
