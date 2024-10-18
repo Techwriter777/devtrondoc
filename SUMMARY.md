@@ -1,25 +1,5 @@
 # Table of contents
 
-## Devtron Dashboard
-
-* [Introduction to Dashboard](user-guide/dashboard/README.md)
-* [Install Dashboard](user-guide/dashboard/install-devtron-dashboard.md)
-* [Resource Browser](user-guide/dashboard/resource-browser/README.md)
-  * [Overview Page](user-guide/dashboard/resource-browser/overview.md)
-  * [Discover and Manage Resources](user-guide/dashboard/resource-browser/manage-resources.md)
-  * [Nodes and Operations](user-guide/dashboard/resource-browser/nodes.md)
-  * [Pod Management and Debugging](user-guide/dashboard/resource-browser/pods.md)
-  * [Cluster Terminal](user-guide/dashboard/resource-browser/terminal.md)
-* [Manage Helm Apps](user-guide/dashboard/helm-apps.md)
-* [Argo CD App Listing](user-guide/dashboard/argocd-listing.md)
-* [Flux CD App Listing](user-guide/dashboard/fluxcd-listing.md)
-* [User Management](user-guide/global-configurations/authorization/README.md)
-* [Tasks](user-guide/tasks/README.md)
-  * [Create a Kubernetes Cluster](user-guide/tasks/create-cluster.md)
-  * [Run Kubectl Commands Locally](user-guide/tasks/kubectl-local.md)
-
-## Detailed Guide
-
 * [Introduction](README.md)
 * [Getting Started](setup/getting-started/getting-started.md)
 * [Install Devtron](setup/install/README.md)
@@ -81,6 +61,23 @@
   * [0.3.x-0.3.x](setup/upgrade/devtron-upgrade-0.3.x-0.3.x.md)
   * [0.2.x-0.3.x](setup/upgrade/devtron-upgrade-0.2.x-0.3.x.md)
 
+## Devtron Dashboard
+
+* [Introduction to Dashboard](user-guide/dashboard/README.md)
+* [Install Dashboard](user-guide/dashboard/install-devtron-dashboard.md)
+* [Resource Browser](user-guide/dashboard/resource-browser/README.md)
+  * [Overview Page](user-guide/dashboard/resource-browser/overview.md)
+  * [Discover and Manage Resources](user-guide/dashboard/resource-browser/manage-resources.md)
+  * [Nodes and Operations](user-guide/dashboard/resource-browser/nodes.md)
+  * [Pod Management and Debugging](user-guide/dashboard/resource-browser/pods.md)
+  * [Cluster Terminal](user-guide/dashboard/resource-browser/terminal.md)
+* [Manage Helm Apps](user-guide/dashboard/helm-apps.md)
+* [Argo CD App Listing](user-guide/dashboard/argocd-listing.md)
+* [Flux CD App Listing](user-guide/dashboard/fluxcd-listing.md)
+* [User Management](user-guide/global-configurations/authorization/README.md)
+* [Tasks](user-guide/tasks/README.md)
+  * [Create a Kubernetes Cluster](user-guide/tasks/create-cluster.md)
+  * [Run Kubectl Commands Locally](user-guide/tasks/kubectl-local.md)
 
 ## Usage
 
