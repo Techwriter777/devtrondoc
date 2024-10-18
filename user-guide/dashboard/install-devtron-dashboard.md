@@ -1,7 +1,5 @@
 # Install Dashboard
 
-In this section, we describe on how you can install Dashboard by Devtron.
-
 ## Prerequisite
 
 * Create a [Kubernetes cluster, preferably K8s version 1.16 or higher](../tasks/create-cluster.md)
