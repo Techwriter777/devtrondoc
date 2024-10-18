@@ -74,7 +74,7 @@
 * [Manage Helm Apps](user-guide/dashboard/helm-apps.md)
 * [Argo CD App Listing](user-guide/dashboard/argocd-listing.md)
 * [Flux CD App Listing](user-guide/dashboard/fluxcd-listing.md)
-* [User Management](user-guide/global-configurations/authorization/README.md)
+* [User Management](user-guide/dashboard/user-management.md)
 * [Tasks](user-guide/tasks/README.md)
   * [Create a Kubernetes Cluster](user-guide/tasks/create-cluster.md)
   * [Run Kubectl Commands Locally](user-guide/tasks/kubectl-local.md)
