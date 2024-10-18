@@ -88,6 +88,8 @@
   * [User Permissions](user-guide/global-configurations/authorization/user-access.md)
   * [Permission Groups](user-guide/global-configurations/authorization/permission-groups.md)
   * [API Tokens](user-guide/global-configurations/authorization/api-tokens.md)
+* [Tasks](user-guide/tasks/README.md)
+  * [Running Kubectl Commands Locally](user-guide/tasks/kubectl-local.md)
 
 
 ## Usage
@@ -199,6 +201,3 @@
 * [Devtron on Graviton](reference/graviton.md)
 * [Release Notes](https://github.com/devtron-labs/devtron/releases)
 
-## Tasks
-
-* [Running Kubectl Commands Locally](user-guide/tasks/kubectl-local.md)
