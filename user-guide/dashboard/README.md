@@ -42,7 +42,7 @@ Support to add your OCI registry for uploading and downloading helm charts, and 
 
 ---
 
-## Enterprise Features [![](https://devtron-public-asset.s3.us-east-2.amazonaws.com/images/elements/EnterpriseTag.svg)](https://devtron.ai/pricing)
+## Additional Options [![](https://devtron-public-asset.s3.us-east-2.amazonaws.com/images/elements/EnterpriseTag.svg)](https://devtron.ai/pricing)
 
 For your advanced and challenging use-cases, Devtron offers enterprise-grade features too:
 
