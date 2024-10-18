@@ -60,14 +60,7 @@ Moreover, you can also do a CNAME entry corresponding to your domain/subdomain t
 
 ### Get Admin Login credentials
 
-When you install Devtron for the first time, it creates a default admin user and password (with unrestricted access to Devtron). You can use that credentials to log in as an administrator. 
-
-After the initial login, we recommend you set up any SSO service like Google, GitHub, etc., and then add other users (including yourself). Subsequently, all the users can use the same SSO (let's say, GitHub) to log in to Devtron's dashboard.
-
-The section below will help you understand the process of getting the administrator credentials.
-
-**Username**: `admin` <br>
-**Password**: Run the following command to get the admin password:
+By default, the username will be `admin`. Run the below command to get the admin password.
 
 ```bash
 kubectl -n devtroncd get secret devtron-secret \
@@ -76,7 +69,7 @@ kubectl -n devtroncd get secret devtron-secret \
 
 {% hint style="info" %}
 ### Recommended Action
-When you install Devtron for the first time, it creates a default admin user and password (with unrestricted access to Devtron). You can use that credentials to log in as an administrator. 
+When you install Devtron for the first time, it creates a default admin user and password (with unrestricted access to Devtron). You can use it to log in as an administrator. 
 
 After the initial login, we recommend you set up any SSO service like Google, GitHub, etc., and then add other users (including yourself). Subsequently, all the users can use the same SSO (let's say, GitHub) to log in to Devtron's dashboard.
 {% endhint %}
