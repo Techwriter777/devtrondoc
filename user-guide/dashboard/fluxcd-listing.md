@@ -36,12 +36,6 @@ The cluster in which Flux CD apps exist should be added in **Global Configuratio
 
 ---
 
-## Feature Flag
-
-**`FEATURE_EXTERNAL_FLUX_CD_ENABLE: "true"`**
-
----
-
 ## Steps to Enable FluxCD App Listing
 
 1. Go to the **Resource Browser** of Devtron.
