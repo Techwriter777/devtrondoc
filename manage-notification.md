@@ -176,9 +176,10 @@ After completing the [configurations](broken-reference), you can create notifica
 ![Figure 6: Adding Notifications](https://devtron-public-asset.s3.us-east-2.amazonaws.com/images/global-configurations/manage-notification/add-notification-v2.jpg)
 
 2. Click the **Send to** dropdown and select the recipient. It can be any of the following:
-   1. A verified email address (by SES/SMTP)
-   2. A Slack channel
-   3. A Webhook
+
+* A verified email address (by SES/SMTP)
+* A Slack channel
+* A Webhook
 
 ![Figure 7: Choosing Recipients](https://devtron-public-asset.s3.us-east-2.amazonaws.com/images/global-configurations/manage-notification/send-to.gif)
 
@@ -189,10 +190,11 @@ You can add more than one recipient as per your requirement.
 {% endhint %}
 
 3. Click the **Select pipelines** dropdown and choose a filter. It can be any of the following:
-   1. Application
-   2. Project
-   3. Environment
-   4. Cluster
+
+* Application
+* Project
+* Environment
+* Cluster
 
 ![Figure 8: Selecting Pipelines with Filters](https://devtron-public-asset.s3.us-east-2.amazonaws.com/images/global-configurations/manage-notification/filter-pipeline.gif)
 
